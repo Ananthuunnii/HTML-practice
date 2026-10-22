@@ -4,48 +4,191 @@
 <head>
     <meta charset="utf-8">
     <title>Instagram</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            margin: 0;
+            padding: 0px;
+            background-color: aliceblue;
+        }
+
+        .topnewssection {
+            margin: 0 60px 10px 60px;
+            background-color: rgb(243, 243, 235);
+        }
+
+        #maincontent {
+            margin: 0 10px 10px 10px;
+            border: black 2px solid;
+            padding: 25px 25px 25px 25px;
+
+        }
+
+        #mainheadingline {
+            margin: 0px;
+            padding: 0px;
+            /* background-color: aqua; */
+            margin-left: 13%;
+            margin-top: 2%;
+        }
+
+        #mainlogo {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(23, 59, 59);
+            border-radius: 25px;
+        }
+
+        #figurelogo {
+            margin: 15px;
+            margin-left: 5%;
+        }
+
+        header {
+            display: flex;
+        }
+
+        /* nav{
+            margin-left: 50%
+        } */
+        #nav ol {
+            list-style: none;
+            /* list-style-position:; */
+            display: inline-block;
+            margin-left: 20%
+        }
+
+        #nav li {
+            display: inline;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            padding-inline: 25px;
+        }
+
+        li:hover {
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+        }
+
+        #mainheadingline:hover {
+            color: rgb(132, 31, 31);
+        }
+        aside {
+            margin: 20px auto;
+            padding: 15px 20px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #d9534f; /* Crimson alert accent line */
+        }
+    </style>
 </head>
 
-<body style="background-color: lightblue;">
-    <section>
-        <h1>hello my dear</h1>
-        <h2>hello my dear</h2>
-        <h3>hello my dear</h3>
-        <h4>hello my dear</h4>
-        <h5>hello my dear</h5>
-        <h6>hello my dear</h6>
+<body>
+    <section class="topnewssection">
+        <header>
+            <figure id="figurelogo">
+                <img id="mainlogo" src="./img/letterA.png" alt="logo" width="99px" height="99px">
+                <figcaption style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <a href="#">Indian Express</a>
+                </figcaption>
+            </figure>
+            <h1 id="mainheadingline"
+                style="text-align: center;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:80px;">
+                Indian Express</h1>
+        </header>
+        <div id="nav">
+            <ol>
+                <li>
+                    <link rel="stylesheet" href="#">Home
+                </li>
+                <li>
+                    <link rel="stylesheet" href="#">Top news
+                </li>
+                <li>
+                    <link rel="stylesheet" href="#">Sports
+                </li>
+                <li>
+                    <link rel="stylesheet" href="#">crime
+                </li>
+                <li>
+                    <link rel="stylesheet" href="#">About
+                </li>
+            </ol>
+        </div>
+        <main id="maincontent">
+            <div id="topnews"
+                style="text-align :justify;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <h2>Top News</h2>
+                <h4>IT, finance firms among targets of rogue <strong><i>Anthropic</i></strong>, OpenAI agents</h4>
+                <p><b>AI agents</b> are autonomous systems capable of independently planning and executing tasks,
+                    accessing
+                    external websites and software tools, and taking actions with limited human intervention. Unlike
+                    conventional chatbots, which primarily respond to queries, such systems can perform a series of
+                    actions without requiring human instructions at every stage.
+
+                    The Indian Computer Emergency Response Team (Cert-In), which disclosed <strong><i>last week that AI
+                            agents had
+                            accessed confidential business records of organisations while operating beyond their
+                            assigned tasks,
+                            has conducted a preliminary assessment of the incidents.</i></strong> The damage caused was
+                    relatively limited,
+                    because the AI companies identified the unauthorised activity during internal reviews and alerted
+                    the Indian government in time, <strong><em>the official said.</em></strong></p>
+
+            </div>
+            <aside>
+                <blockquote>
+                        <a href="https://indianexpress.com/article/india/chhattisgarh-ips-ak-47-firing-viral-video-10932210/">Dangerous handling: Ex-Army officer slams Chhattisgarh cop who fired AK-47</a>
+                </blockquote>
+            </aside>
+            <div id="subnews">
+
+            </div>
+            <div id="subnews">
+                <h3>Sports News</h3>
+                <h4>Anahat gets the GOAT: Beats 8-time world champ Nour El Sherbini in California</h4>
+                <p>In Nour El Sherbini, Anahat Singh on Thursday faced a woman regarded by many as squash’s greatest of
+                    all time. Yet, going into the match, India head coach Harinder Pal Sandhu believed the teenager
+                    “definitely does have a shot” against the legend.
+
+                    An obvious reason for confidence was the junior world champion’s recent performances and a
+                    propensity to punch above her ranking. Another one was El Sherbini’s patchy form: she had lost four
+                    of her last seven matches on tour and didn’t look quite like herself this season.
+
+                    As it turned out, Anahat proved Harinder right emphatically. Undaunted by her opponent’s reputation
+                    and her own reverence, the Indian unleashed the killer instinct that has made her one of the sport’s
+                    most exciting talents. The eight-time world champ stood vanquished
+                </p>
+            </div>
+
+            <h4>hello my dear</h4>
+            <h5>hello my dear</h5>
+            <h6>hello my dear</h6>
+
+            <ol>
+                <lh>Your Likes</lh>
+                <li>Business</li>
+                <li>Cinema</li>
+                <li>Heelth</li>
+                <li>world</li>
+                <li>Politics</li>
+            </ol>
+            <ul>
+                <lh> head 2</lh>
+                <li>WHITE</li>
+                <li>BROWN</li>
+                <li>ORANGE</li>
+                <li>BLUE</li>
+                <li>ORANGE</li>
+            </ul>
+        </main>
     </section>
-    <section>
-        <h6>hello my dear</h6>
-        <h5>hello my dear</h5>
-        <h4>hello my dear</h4>
-        <h3>hello my dear</h3>
-        <h2>hello my dear</h2>
-        <h1>hello my dear</h1>
-    </section>
-    <p>I was a <strong>backend developer</strong> working under senior developers. I developed and modified REST APIs,
-        implemented
-        business logic, worked with <b>EF Core</b> and SQL Server, handled some stored-procedure/database work and API
-        <i>integrations, and fixed defects.</i> I could handle my assigned tasks independently, but for complex
-        requirements I
-        discussed the <em>approach</em> with seniors
-    </p>
-    <ol>
-        <lh>My Family Members</lh>
-        <li>AMMU</li>
-        <li>ACHU</li>
-        <li>APPU</li>
-        <li>names</li>
-    </ol>
-    <ul>
-        <lh> head 2</lh>
-        <li>WHITE</li> 
-        <li>BROWN</li>
-        <li>ORANGE</li>
-        <li>BLUE</li>
-        <li>ORANGE</li>
-    </ul>
-    <img src="" alt="logo" width="200" height="200">
+
+
 </body>
 
 </html>
